@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0a0d12" />
+    <title>Audacity · The Guild Hall</title>
+    <meta
+      name="description"
+      content="Thirty-four million event records. One guild’s story. The Audacity Classic retrospective."
+    />
+    <link rel="icon" href="guild-logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="wordmark" href="#overview"
+        ><img class="guild-logo" src="guild-logo.png" alt="" width="36" height="42" /><span
+          >AUDACITY<small>ARUGAL · OCEANIC · CLASSIC</small></span
+        ></a
+      >
+        <form class="filterbar" id="filters" aria-label="Guild record filters">
+          <label class="sr-only" for="phase-filter">Phase</label
+          ><select id="phase-filter">
+            <option value="all">All of Classic</option></select
+          ><label class="sr-only" for="zone-filter">Raid</label
+          ><select id="zone-filter">
+            <option value="all">All five raids</option></select
+          ><label class="sr-only" for="combat-filter">Fight scope</label
+          ><select id="combat-filter">
+            <option value="all">Bosses + trash</option>
+            <option value="boss">Boss fights</option>
+            <option value="trash">Trash only</option></select
+          ><button type="button" id="reset-filters">Reset ↺</button>
+        </form>
+    </header>
+    <div id="load-status" role="status">Opening the guild chronicles…</div>
+    <main id="dashboard" hidden>
+      <section class="hero" id="overview">
+        <div class="hero-atmosphere"></div>
+        <div class="hero-copy">
+          <h1>THE AUDACITY<br /><em>RETROSPECTIVE</em></h1>
+          <p>
+            From the fires of Molten Core to the halls of Naxxramas.<br />The
+            bosses. The bodies. The questionable decisions.
+          </p>
+          <strong id="archive-story"
+            >34.1 million event records. One guild’s story.</strong
+          >
+          <div class="hero-actions">
+            <a class="button gold" href="#records"
+              >Meet the usual suspects <span>↓</span></a
+            ><a class="text-link" href="#campaign">Relive the campaign ↗</a>
+          </div>
+          <div class="hero-meta">
+            <span>30 SEPT 2019 — 1 APR 2021</span><span>◆</span
+            ><span>AUDACITY · ARUGAL</span>
+          </div>
+        </div>
+        <span class="hero-word" aria-hidden="true">AUDACITY</span>
+      </section>
+      <div class="page-content">
+        <section
+          id="stats"
+          class="stats-strip"
+          aria-label="Guild statistics"
+        ></section>
+        <p id="scope-summary" class="scope-summary"></p>
+        <section id="records" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">THE NAMES WE REMEMBER</span>
+              <h2>The guild’s <em>rap sheet.</em></h2>
+              <p>
+                Some legends topped the meters. Others became very familiar with
+                the floor.
+              </p>
+            </div>
+            <a class="text-link" href="#record-book"
+              >Open the full record book ↓</a
+            >
+          </div>
+          <div id="awards" class="records-grid"></div>
+        </section>
+        <section id="record-book" class="section record-book">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">EVERYONE GETS THEIR MOMENT</span>
+              <h2>The <em>record book.</em></h2>
+              <p id="record-description"></p>
+            </div>
+            <label class="sr-only" for="metric-filter">Record</label
+            ><select id="metric-filter"></select>
+          </div>
+          <div class="leaderboard-grid">
+            <div id="podium" class="podium"></div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Raider</th>
+                    <th id="metric-heading">Total</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="leaderboard"></tbody>
+              </table>
+              <button class="button more" id="show-more">
+                Show everyone ↓
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="campaign" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">SIX PHASES. ONE LONG REPAIR BILL.</span>
+              <h2>That was <em>our Classic.</em></h2>
+              <p>
+                New raids. Familiar voices. “One more pull” for another eighteen
+                months.
+              </p>
+            </div>
+          </div>
+          <div id="phases" class="phase-grid"></div>
+          <div id="zone-cards" class="zone-grid"></div>
+        </section>
+        <section id="bosses" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">SOME FACES YOU NEVER FORGET</span>
+              <h2>The <em>boss room.</em></h2>
+              <p>
+                Victories, wipe nights and the people who did the heavy lifting.
+              </p>
+            </div>
+            <label class="sr-only" for="boss-sort">Sort bosses</label
+            ><select id="boss-sort">
+              <option value="wipes">Most wipes & resets</option>
+              <option value="kills">Most kills</option>
+              <option value="deaths">Most raider deaths</option>
+            </select>
+          </div>
+          <div id="boss-grid" class="boss-grid"></div>
+        </section>
+        <section id="collateral" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow"
+                >THE CALL WAS COMING FROM INSIDE THE RAID</span
+              >
+              <h2>Friendly fire. <em>Unfriendly results.</em></h2>
+              <p>
+                Bombs, polarity and the occasional perfectly justified attack on
+                a guildmate.
+              </p>
+            </div>
+          </div>
+          <div id="mechanics" class="mechanics-grid"></div>
+          <div class="collateral-banner">
+            <div>
+              <span class="eyebrow">MIND CONTROL & CHARM</span>
+              <h3>“Sorry mate. <em>You were red.</em>”</h3>
+              <p>
+                Damage dealt to mind-controlled or charmed guildmates. A little
+                crowd control, the Audacity way.
+              </p>
+            </div>
+            <div id="mc-highlight"></div>
+            <button class="button" data-record="mindControlDamage">
+              Show the damage ↗
+            </button>
+          </div>
+          <div id="incidents" class="incident-grid"></div>
+        </section>
+        <section id="lore" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">THE STUFF THE PARSES DON’T TELL YOU</span>
+              <h2>Guild lore, <em>in numbers.</em></h2>
+              <p>
+                A few things to bring up the next time everyone is in Discord.
+              </p>
+            </div>
+          </div>
+          <div id="lore-cards" class="lore-grid"></div>
+          <div id="clutch-kills" class="clutch-grid"></div>
+        </section>
+        <section id="raiders" class="section">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">THE USUAL SUSPECTS</span>
+              <h2>Old names. <em>Good memories.</em></h2>
+              <p>Pick a name and open their personal Classic recap.</p>
+            </div>
+            <label class="sr-only" for="roster-search">Find a raider</label
+            ><input
+              type="search"
+              id="roster-search"
+              placeholder="Find an old guildmate…"
+            />
+          </div>
+          <div id="roster" class="roster-grid"></div>
+        </section>
+        <footer id="receipts">
+          <div class="footer-brand">
+            <img class="guild-logo" src="guild-logo.png" width="30" height="36" alt="" /><span
+              >AUDACITY<small
+                >Good guild. Questionable life choices.</small
+              ></span
+            >
+          </div>
+          <p class="footer-note">
+            Made for the people who were there. Bring your memories. We brought
+            the logs.
+          </p>
+        </footer>
+      </div>
+    </main>
+    <dialog id="detail-dialog">
+      <button class="dialog-close" aria-label="Close">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

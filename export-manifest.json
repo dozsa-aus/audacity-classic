@@ -1,0 +1,320 @@
+{
+  "builtAt": "2026-10-16T12:01:36.087Z",
+  "snapshotAt": "2026-10-16T11:36:54.004Z",
+  "rawEventRecords": 34109378,
+  "raidGroups": 167,
+  "members": 89,
+  "publicBytes": 10551923,
+  "files": [
+    {
+      "file": "public/index.html",
+      "bytes": 8909,
+      "sha256": "9548d02829d463e44388ebc6b09150cfbe01129ffde7c3badeedf9265952d23f"
+    },
+    {
+      "file": "public/style.css",
+      "bytes": 26740,
+      "sha256": "73026d8825a932dee980a48444a8f09cd9b49755b6fec48e885c7ce48bf99591"
+    },
+    {
+      "file": "public/app.js",
+      "bytes": 27981,
+      "sha256": "9e42e9de4bd3e311a01cceb1c82066d03f10526261be66fe1f2fa68c153d985d"
+    },
+    {
+      "file": "public/stats.js",
+      "bytes": 6929,
+      "sha256": "eb15e6d5b5cfcefabdc96ed739d6dbed6ec97de1d5cdae2de3c834695e38d1fb"
+    },
+    {
+      "file": "public/retrospective.js",
+      "bytes": 8418,
+      "sha256": "211fc548609dd1b1e340ff5ad8eedb6c7b347632c6abc40c10f8f805a0904e12"
+    },
+    {
+      "file": "public/raid-art.js",
+      "bytes": 1700,
+      "sha256": "060b3bdaf8ab25feaa33d837bd7dca92d52294b31c6b6c3fdb69c93c38c75cad"
+    },
+    {
+      "file": "public/data.json",
+      "bytes": 1552484,
+      "sha256": "cf95a91b512ca60f71665b24fbc945ae728de54816cde6adc528c7049fd026b0"
+    },
+    {
+      "file": "public/events.json",
+      "bytes": 7217323,
+      "sha256": "b3f037f0399779c28bfd6612ba15a6501d4ad8ec5bdb1e3b6a425346b475d977"
+    },
+    {
+      "file": "public/guild-logo.png",
+      "bytes": 6425,
+      "sha256": "ada8af55d19ab4b32ef21d8e3b6c73f65060476fadd3928c92f78a8c615e5ab6"
+    },
+    {
+      "file": "public/final-kill.png",
+      "bytes": 1344426,
+      "sha256": "104db80584ac07068ce70a7cf263b6889bc3810aee550327337fc025167b669e"
+    },
+    {
+      "file": "public/art/boss-1084.jpg",
+      "bytes": 3041,
+      "sha256": "0bb87db151e2e1d8b2342853646c5f9de31bd4b6b24f5fa03abf9b0bab035cee"
+    },
+    {
+      "file": "public/art/boss-1107.jpg",
+      "bytes": 3020,
+      "sha256": "59d4269947cf3cfa652cb21c4070aa8e27c6da911c4eb3770391ef0c4cb8107c"
+    },
+    {
+      "file": "public/art/boss-1108.jpg",
+      "bytes": 2208,
+      "sha256": "8219029cda04c12f892bc5f86d602f597599d7a8386d4b71bd2869472f15f98e"
+    },
+    {
+      "file": "public/art/boss-1109.jpg",
+      "bytes": 2671,
+      "sha256": "0c6886df41af96a8a6b89a00c4de4958046b8999bd19032bdc7373424e110cfc"
+    },
+    {
+      "file": "public/art/boss-1110.jpg",
+      "bytes": 3454,
+      "sha256": "d0555243f491a2a73319e14b7228d5e87db782e3db6dc9faa5c3e1879979872c"
+    },
+    {
+      "file": "public/art/boss-1111.jpg",
+      "bytes": 2705,
+      "sha256": "fafe851a0dcd9cbb0e95aab1a5db8eb25177030bf064560bd2af584f055b5dcb"
+    },
+    {
+      "file": "public/art/boss-1112.jpg",
+      "bytes": 2033,
+      "sha256": "2ce8da9ed6a52eeebba3165abd6692bb72e73cbd78ec86511c5c806932eccea0"
+    },
+    {
+      "file": "public/art/boss-1113.jpg",
+      "bytes": 3150,
+      "sha256": "1728d1034f157083ac567bc8b3de16e7c516cfc03aadb0ea7a186699232e2c44"
+    },
+    {
+      "file": "public/art/boss-1114.jpg",
+      "bytes": 3348,
+      "sha256": "a5890c640b29253037fd641907fe79b2ee72550cadf61e6b4690a0c956bef946"
+    },
+    {
+      "file": "public/art/boss-1115.jpg",
+      "bytes": 2792,
+      "sha256": "dc27378d84d00af5a562d4bb5f9b57fbfcf3c057a82cdf83e462aa232986aa4e"
+    },
+    {
+      "file": "public/art/boss-1116.jpg",
+      "bytes": 2765,
+      "sha256": "9e4462a53cd4e18aaab4b12950c8784be22be3bf1dd12d936778c442b07bf14b"
+    },
+    {
+      "file": "public/art/boss-1117.jpg",
+      "bytes": 2528,
+      "sha256": "7e0c34468ef527c73ea3210efee480aba2ddf287b73f9bf5b48f3cf453853147"
+    },
+    {
+      "file": "public/art/boss-1118.jpg",
+      "bytes": 2565,
+      "sha256": "981fdb8caa7330dd0b33a895b7754db4a550f4968868be17abaf6e7f77d6ffbd"
+    },
+    {
+      "file": "public/art/boss-1119.jpg",
+      "bytes": 2861,
+      "sha256": "e667d63b9866dd6ad2fae0147cf3eaaf9e7b4b88de96731e77fd6f6f1a5bd571"
+    },
+    {
+      "file": "public/art/boss-1120.jpg",
+      "bytes": 2872,
+      "sha256": "a359842002124a51df9ff7ed4cc5af5559657657da592beb22dd148eec42efe5"
+    },
+    {
+      "file": "public/art/boss-1121.jpg",
+      "bytes": 3428,
+      "sha256": "7dbd9b1b7f98dee0cf38b90475f12f118aaef12ee99a06aa5d6f0d22eefa2920"
+    },
+    {
+      "file": "public/art/boss-610.jpg",
+      "bytes": 3784,
+      "sha256": "3b93bab0e362cd27ee39d06dd68f838baaed9f53bb97ab7aa22dfcb0f128c918"
+    },
+    {
+      "file": "public/art/boss-611.jpg",
+      "bytes": 4057,
+      "sha256": "542abfb6617e70778990303a4a2399c2bf1283447ded805b34f944a561ada150"
+    },
+    {
+      "file": "public/art/boss-612.jpg",
+      "bytes": 3016,
+      "sha256": "4ac5db874a625479f9eb709b05e131e0f3088556f96162c29d67bdeee5a22fac"
+    },
+    {
+      "file": "public/art/boss-613.jpg",
+      "bytes": 2791,
+      "sha256": "fea033a6f0a7775c0d703af8b040dc55d8c4ec31ce1b39640d103c46f5a361c7"
+    },
+    {
+      "file": "public/art/boss-614.jpg",
+      "bytes": 2557,
+      "sha256": "00281d46060ba70a4c401549851b0ec5959d3ea8f16ea0e53c2550fd923ff287"
+    },
+    {
+      "file": "public/art/boss-615.jpg",
+      "bytes": 2893,
+      "sha256": "3b1cd9f9d4bebb15ea96b3202a6ccd6ca541a82d891ae27413e51b5807c9ab40"
+    },
+    {
+      "file": "public/art/boss-616.jpg",
+      "bytes": 2618,
+      "sha256": "e20ed4b5ea0521c6708afb5fcbc5de666a981600e8b8c032847d2d19e2090044"
+    },
+    {
+      "file": "public/art/boss-617.jpg",
+      "bytes": 3000,
+      "sha256": "43d784253c188f34214107e6182e81c862686333a20a6d5bef23b0bc88bf886b"
+    },
+    {
+      "file": "public/art/boss-631.jpg",
+      "bytes": 2056,
+      "sha256": "52433e0f953d85192ea7e40fe2e374ca851ff6a2400642a5ffc0780fc4a68ca7"
+    },
+    {
+      "file": "public/art/boss-663.jpg",
+      "bytes": 4227,
+      "sha256": "ac5ed437e6733545fd122a4070e667507c4ace59e8b1272b4c5e4127ef7deb38"
+    },
+    {
+      "file": "public/art/boss-664.jpg",
+      "bytes": 3267,
+      "sha256": "2a5f1ed62ab06a79032caf197f58d6a7886bfdf830cb39ceae185f1fcb6b9569"
+    },
+    {
+      "file": "public/art/boss-665.jpg",
+      "bytes": 3885,
+      "sha256": "63ea30cf1af4e52c32d225d86d1f1c3d726b64b7ee2b265905e62b67d21f3c43"
+    },
+    {
+      "file": "public/art/boss-666.jpg",
+      "bytes": 3407,
+      "sha256": "3279e37521518596f3f06c8e2211089ef3bb393a29d420fbcc782123432c8a54"
+    },
+    {
+      "file": "public/art/boss-667.jpg",
+      "bytes": 3918,
+      "sha256": "1739dba1e4c7207798deb9a2b169eb1f9b228d2b63bf02829fcd6768d669affa"
+    },
+    {
+      "file": "public/art/boss-668.jpg",
+      "bytes": 3372,
+      "sha256": "44e68be0c257740ced95a0ed0e660418180a6b1e8c20da6dfb97ebfeb4bf533d"
+    },
+    {
+      "file": "public/art/boss-669.jpg",
+      "bytes": 3557,
+      "sha256": "e8aad3420e8fa9326d1d352d90989db4c61dd96da7a9ac5fdecdc332fee47425"
+    },
+    {
+      "file": "public/art/boss-670.jpg",
+      "bytes": 3594,
+      "sha256": "816c790b20aa5e27b7b05185f47e1e168778636b16113d12f3481ac599c89984"
+    },
+    {
+      "file": "public/art/boss-671.jpg",
+      "bytes": 3228,
+      "sha256": "1ef72ecd75404071b8f232e5429f6632c8edb1bcfa007a9919573c262f015247"
+    },
+    {
+      "file": "public/art/boss-672.jpg",
+      "bytes": 3536,
+      "sha256": "6da67bccf31c26d63af18fe394a9e719684fed3cda98046c45916cbb0d5ba02a"
+    },
+    {
+      "file": "public/art/boss-709.jpg",
+      "bytes": 1828,
+      "sha256": "f7b08c0c78a3a84ef3df54deade72885eee2adf0ac66d5eb0b5c809607923db8"
+    },
+    {
+      "file": "public/art/boss-710.jpg",
+      "bytes": 1467,
+      "sha256": "42909bd5f173dfc6f397cc4fa5e847b134244b37594e478445ea83f861552277"
+    },
+    {
+      "file": "public/art/boss-711.jpg",
+      "bytes": 1608,
+      "sha256": "9c36452902950bdd20164ffd04ca2ace237067a339dfbe98c7b688b63a88b409"
+    },
+    {
+      "file": "public/art/boss-712.jpg",
+      "bytes": 2992,
+      "sha256": "46ca59de17ad20d6cedffc4e0e098a170bda02ab133eaf2c8147908e87dad03a"
+    },
+    {
+      "file": "public/art/boss-713.jpg",
+      "bytes": 1320,
+      "sha256": "207cf6c3be0fd463ffc5e228bdefddc9f695d44e4d6489d1b1ebff5227cf6fae"
+    },
+    {
+      "file": "public/art/boss-714.jpg",
+      "bytes": 1312,
+      "sha256": "a23f8c90affca305a229bb8207a965c3eaa32c5d2d9304e0514c6bb12890de87"
+    },
+    {
+      "file": "public/art/boss-715.jpg",
+      "bytes": 1517,
+      "sha256": "d6a1aa863568caa682815055efa144003d59001a64da713ec1a30e0d1fa2fd7b"
+    },
+    {
+      "file": "public/art/boss-716.jpg",
+      "bytes": 1225,
+      "sha256": "7cb0836158af269af237194bd123e354eda2763df9182e754805112d681b8349"
+    },
+    {
+      "file": "public/art/boss-717.jpg",
+      "bytes": 1659,
+      "sha256": "a1c1a64e533851a700c200543ed19b6a02c5d635f0bd5798d4bf387c886bff50"
+    },
+    {
+      "file": "public/art/drake-fang-talisman.jpg",
+      "bytes": 1397,
+      "sha256": "1bf46ee21e8c27e62dbbf3eca174c41ccbbfe2ef006541b1e56f4190aa51b86e"
+    },
+    {
+      "file": "public/art/zone-1000.jpg",
+      "bytes": 6929,
+      "sha256": "27fb8d6718624b03937f065aac0430631a80a5ce62768625269d165637b3fb23"
+    },
+    {
+      "file": "public/art/zone-1001.jpg",
+      "bytes": 7059,
+      "sha256": "6d471e3ad3554ba736c85526b405fd821a0271aa678049a25e2b62b0706fab52"
+    },
+    {
+      "file": "public/art/zone-1002.jpg",
+      "bytes": 6477,
+      "sha256": "7d8bacfa10c6ce9cd6fc29f0e86c38c65524a8108b1d9e471665b650052eed24"
+    },
+    {
+      "file": "public/art/zone-1005.jpg",
+      "bytes": 8134,
+      "sha256": "aa044fa8a7120afedd9fdc3569a6d50e6db2f474b90c9a3b6d87793c20f029ea"
+    },
+    {
+      "file": "public/art/zone-1006.jpg",
+      "bytes": 6890,
+      "sha256": "d7e11911da8ff5ef0c017b22966223978c16c299c5af65684d82ccbafc1712a5"
+    },
+    {
+      "file": "public/audio/bryn-munted.mp3",
+      "bytes": 127408,
+      "sha256": "c83ede4d08582c5084e13a12f8d38e23bfe13461d2146c59dc5708f7a848de60"
+    },
+    {
+      "file": "public/audio/tinman-dft.mp3",
+      "bytes": 63162,
+      "sha256": "e99d11908b8df4d0f5f7f7a6ff5b1119e16a86c4c8e175ea285dc0061e62e55f"
+    }
+  ]
+}
