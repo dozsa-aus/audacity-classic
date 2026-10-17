@@ -144,6 +144,8 @@ function renderAwards() {
     "healing",
     "deaths",
     "sappers",
+    "sunderArmors",
+    "windfuryTotems",
     "interrupts",
     "dispels",
     "mindControlDamage",
@@ -178,13 +180,13 @@ function renderBook() {
         .join("")
     : noData;
   $("#leaderboard").innerHTML =
-    (showAll ? rows : rows.slice(0, 10))
+    (showAll || ["sunderArmors", "windfuryTotems"].includes(metric) ? rows : rows.slice(0, 10))
       .map(
         (m, i) =>
           `<tr><td>${i + 1}</td><td><div class="member-cell">${avatar(m)}<div>${personButton(m.id)}<small>${esc(m.className)}</small></div></div></td><td><span class="table-number" title="${number(m.value)}">${number(m.value)}</span><div class="bar-track"><i style="width:${Math.max(1, (m.value / rows[0].value) * 100)}%"></i></div></td><td><button class="name-button" data-member="${m.id}" aria-label="Open ${esc(m.name)} recap">↗</button></td></tr>`,
       )
       .join("") || `<tr><td colspan="4">${noData}</td></tr>`;
-  $("#show-more").hidden = rows.length <= 10;
+  $("#show-more").hidden = rows.length <= 10 || ["sunderArmors", "windfuryTotems"].includes(metric);
   $("#show-more").textContent = showAll
     ? "Show the top ten ↑"
     : `Show all ${rows.length} raiders ↓`;
@@ -432,6 +434,8 @@ function memberDialog(id) {
   const attended = sessions.filter((s) => s.members.includes(id)),
     nights = new Set(attended.map((s) => s.night));
   const best = [
+    "sunderArmors",
+    "windfuryTotems",
     "damage",
     "healing",
     "deaths",

@@ -1,10 +1,10 @@
 {
-  "builtAt": "2026-10-16T12:01:36.087Z",
-  "snapshotAt": "2026-10-16T11:36:54.004Z",
+  "builtAt": "2026-10-17T00:05:53.043Z",
+  "snapshotAt": "2026-10-17T00:02:22.711Z",
   "rawEventRecords": 34109378,
   "raidGroups": 167,
   "members": 89,
-  "publicBytes": 10551923,
+  "publicBytes": 10758580,
   "files": [
     {
       "file": "public/index.html",
@@ -18,8 +18,8 @@
     },
     {
       "file": "public/app.js",
-      "bytes": 27981,
-      "sha256": "9e42e9de4bd3e311a01cceb1c82066d03f10526261be66fe1f2fa68c153d985d"
+      "bytes": 28175,
+      "sha256": "7371ad9a277d3079be1b0c273101d3fdfe9e82d616b49a3a42672c662ff9b9d7"
     },
     {
       "file": "public/stats.js",
@@ -28,8 +28,8 @@
     },
     {
       "file": "public/retrospective.js",
-      "bytes": 8418,
-      "sha256": "211fc548609dd1b1e340ff5ad8eedb6c7b347632c6abc40c10f8f805a0904e12"
+      "bytes": 9018,
+      "sha256": "9afed448a63465e691c427407ab94b836ed7bc01b78e2b6bc4024122a049db27"
     },
     {
       "file": "public/raid-art.js",
@@ -39,12 +39,12 @@
     {
       "file": "public/data.json",
       "bytes": 1552484,
-      "sha256": "cf95a91b512ca60f71665b24fbc945ae728de54816cde6adc528c7049fd026b0"
+      "sha256": "e2a09e0c83504f83b9946f2cb4d8806c4c52f10f9931ee2ae46ea6d438b1b5f6"
     },
     {
       "file": "public/events.json",
-      "bytes": 7217323,
-      "sha256": "b3f037f0399779c28bfd6612ba15a6501d4ad8ec5bdb1e3b6a425346b475d977"
+      "bytes": 7423186,
+      "sha256": "dd0fc35e30983ac80324f7df1331ba3dd93f8a753cb86eca8e6502f70337f8f8"
     },
     {
       "file": "public/guild-logo.png",

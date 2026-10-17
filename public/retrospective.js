@@ -7,6 +7,20 @@ export const PHASES = [
   { id: 6, name: "One last winter", date: "Dec 2020–Apr 2021", zone: 1006 },
 ];
 export const RECORDS = {
+  sunderArmors: {
+    label: "Sunder Armor casts",
+    title: "Five stacks. Keep them coming.",
+    unit: "casts",
+    description: "Sunder Armor casts by warriors, across all recorded ranks. Each cast counts once, including casts at five stacks.",
+    tone: "fire",
+  },
+  windfuryTotems: {
+    label: "Windfury Totem drops",
+    title: "A little help from the elements",
+    unit: "totem drops",
+    description: "Windfury Totems dropped by shamans, across all three ranks. Each placement counts once; buff pulses and extra attacks do not. This measures drops, not uptime.",
+    tone: "blue",
+  },
   absorbs: {
     label: "Damage absorbed",
     title: "You didn’t feel a thing",
